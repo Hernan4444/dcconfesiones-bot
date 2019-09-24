@@ -1,0 +1,23 @@
+[[source]]
+
+url = "https://pypi.python.org/simple"
+verify_ssl = true
+name = "pypi"
+
+
+[dev-packages]
+
+pycodestyle = "*"
+"autopep8" = "*"
+
+
+[packages]
+
+requests = "==2.18.4"
+flask = "==0.12.2"
+httplib2 = "==0.10.3"
+google_api_python_client = "==1.6.4"
+
+[requires]
+
+python_version = "3.6"
